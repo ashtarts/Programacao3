@@ -1,6 +1,6 @@
 # PROJETO FINAL DA DISCIPLINA DE PROGRAMAÇÃO 3
 
- # Objetivo:
+ # Objetivos:
 - Criar um sistema bancário com algumas classes em especifico: Cliente, Conta, Conta Corrente, Conta poupança e a Main;
 - Criar contas bancárias novas
 - Métodos de saque, depósito e transferência
