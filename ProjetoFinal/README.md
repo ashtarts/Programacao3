@@ -6,4 +6,6 @@
 - Métodos de saque, depósito e transferência;
 - Menu com as opções: Criar conta, Realizar operação, Exibir Saldo e Sair.
 
-O projeto foi feito em dupla com <p>Link do github de Ana: <a href="https://github.com/EduCamelo">@EduCamelo </a></p> Onde eu fiquei encarregada de criar aa interface e a lógica em geral. E ele ficou encarregado de debugar e usar Exception e Collections, que foram obrigatórios para nota.
+O projeto foi feito em dupla com:  <a href="https://github.com/EduCamelo">@EduCamelo,
+
+➬ onde eu fiquei encarregada de criar a interface e a lógica em geral. E ele ficou encarregado de debugar e usar Exception e Collections, que foram obrigatórios para nota.
