@@ -218,7 +218,11 @@ public class Main {
             int agenciaRecebimento = Integer.parseInt(agenciaRecebimentoField.getText());
             int contaRecebimento = Integer.parseInt(contaRecebimentoField.getText());
             double valorTransferencia = Double.parseDouble(valorTransferenciaField.getText());
-
+            if(valorTransferencia <= 0){
+                do{
+                    valorTransferencia = Double.parseDouble(JOptionPane.showInputDialog("Digite um valor maior que 0: "));
+                }while(valorTransferencia <= 0);
+            }
             op(agenciaEnvio, contaEnvio, agenciaRecebimento, contaRecebimento, valorTransferencia);
         }
     }
