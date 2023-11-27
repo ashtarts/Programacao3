@@ -2,7 +2,7 @@
 
 
 
-- Atividades 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14;
+- Atividades 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15;
 - Provas 1, 2, 3;
 - Projeto Final da Disciplina _(para mais informações acessar o Readme do próprio projeto)_
 
