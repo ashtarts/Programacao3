@@ -262,7 +262,8 @@ public class Main {
         for (Conta conta : listaContas) {
             if (conta.getAgencia() == t && conta.getConta() == u) {
                 contaEnvio = conta;
-            } else if (conta.getAgencia() == v && conta.getConta() == m) {
+            }
+            if (conta.getAgencia() == v && conta.getConta() == m) {
                 contaRecebe = conta;
             }
         }
@@ -270,6 +271,7 @@ public class Main {
             if(contaEnvio.getSaldo() < n){
                 JOptionPane.showMessageDialog(null,"Saldo insuficiente.");
             }else {
+                contaEnvio.transferencia(contaRecebe, n);
                 JOptionPane.showMessageDialog(null, "Transferência realizada com sucesso", "Sucesso", JOptionPane.INFORMATION_MESSAGE);
             }
         } else {
